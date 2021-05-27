@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+	font-family: 'myFont';
+	src: local('myFont'), url('./fonts/PenumbraWebPro-Serif.ttf') format('truetype');
+}
+
+h1{
+	font-family: myFont;
+	font-weight: 200;
+	color: #ee3333;
+
+}
